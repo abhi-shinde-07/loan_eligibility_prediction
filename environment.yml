@@ -1,0 +1,14 @@
+name: loan_prediction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - plotly
+  - streamlit
+  - pip:
+    - pickle-mixin
